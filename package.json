@@ -1,0 +1,45 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "E2E Automation",
+  "author": "MWP",
+  "license": "MWP",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start",
+    "test": "protractor typeScript/dash-e2e/ConfigSuites.js --suite suite01"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "@types/jasmine": "^2.5.53",
+    "protractor": "^5.1.2",
+    "typescript": "^2.3.4",
+    "typescript-logging": "^0.2.0",
+    "typescript-map": "0.0.3",
+    "@types/cucumber": "0.0.38"
+  },
+  "devDependencies": {
+    "@types/gulp-protractor": "^1.0.30",
+    "jasmine-allure-reporter": "^1.0.1",
+    "jasmine-console-reporter": "^1.2.7",
+    "jasmine-data_driven_tests": "^1.0.0",
+    "protractor-beautiful-reporter": "^0.4.8",
+    "protractor-helpers": "^1.1.0",
+    "protractor-html-screenshot-reporter": "0.0.21",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "jasmine-reporters": "2.1.1",
+    "protractor-jasmine2-screenshot-reporter": "~0.4.1",
+    "random-js": "^1.0.8",
+    "sprintf-js": "^1.1.1",
+    "cucumber": "^2.3.0",
+    "mkdirp": "^0.5.1",
+    "ts-json-properties": "^1.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "xyz"
+  }
+}

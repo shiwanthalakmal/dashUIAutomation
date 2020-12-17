@@ -1,0 +1,9 @@
+/node_modules
+/.git
+/package-lock.json
+/allure-results
+/emailable-report
+/summary-report
+/typeScript
+/.idea
+/**/download-files
